@@ -26,5 +26,11 @@ namespace AlphaSupreme.Controllers
 
             return View();
         }
+
+        public ActionResult test()
+        {
+            ViewBag.Message = "test page...";
+            return View();
+        }
     }
 }
